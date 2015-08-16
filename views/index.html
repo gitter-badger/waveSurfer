@@ -2,12 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Plug App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    <div id="container"></div>
+    <section class="container">
+      <h1>Plug App</h1>
+      <p>Welcome to Plug App</p>
+      <div id="demo">
+        <div id="wave-timeline"></div>
+        <div id="wave1"></div>
+        <div id="wave2"></div>
+        <div id="wave3"></div>
+      </div>
+      <p class="drop" id="drop">
+        Drag'n'drop your music file here.
+      </p>
+      <div class="controls">
+        <button class="btn btn-primary" data-action="play">
+            Play
+            /
+            Pause
+        </button>
+      </div>
+    </section>
   </body>
-  <script src="javascripts/main.js"></script>
-  <script src="javascripts/wavesurfer.min.js"></script>
-  <script src="javascripts/timeline.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wavesurfer.min.js"></script>
+  <script src="js/timeline.min.js"></script>
 </html>
