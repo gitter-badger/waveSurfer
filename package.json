@@ -1,0 +1,32 @@
+{
+  "name": "wave-surfer",
+  "version": "1.0.0",
+  "description": "Basic waveSurfer implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mepps32/waveSurfer.git"
+  },
+  "keywords": [
+    "node",
+    "wave-surfer",
+    "react"
+  ],
+  "author": "Matthew Epps and Ammon Owens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mepps32/waveSurfer/issues"
+  },
+  "homepage": "https://github.com/mepps32/waveSurfer#readme",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
