@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.drop {
+  padding: 30px;
+  margin: 0 auto;
+  border: 3px dashed #ddd;
+  text-align: center;
+  font-size: 21px;
+}
+
+.controls {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  width: 1028px;
+}
+
+#drop.wavesurfer-dragover {
+    border-color: #333;
+}
